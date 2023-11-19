@@ -63,7 +63,10 @@ function Register() {
       "url('https://w0.peakpx.com/wallpaper/692/679/HD-wallpaper-purple-nature-nature-orange-thumbnail.jpg')",
   };
   return (
-    <div className="min-h-screen py-20" style={gradientStyle}>
+    <div
+      className="min-h-screen flex justify-center items-center py-20 "
+      style={gradientStyle}
+    >
       <ToastContainer />
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto overflow-hidden login_container">

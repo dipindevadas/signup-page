@@ -80,9 +80,13 @@ button{
   position: relative;
 }
 
+
+
 .continue-label{
   position: absolute;
-  left: 21%;
+  /* left: 21%; */
+  left: 50%;
+  transform: translate(-50%, 0);
   top: -11px;
   font-size: 13px;
   padding: 0px 5px ;
@@ -91,5 +95,25 @@ button{
 
 .login_container{
   box-shadow: 0 8px 20px #4600463b;
+}
 
+@media(min-width: 1300px) and (max-width: 1540px){
+  .hr-line{
+    width: 80%;
+  }
+}
+
+@media(min-width: 1020px) and (max-width: 1299.98px){
+  .hr-line{
+    width: 95%;
+  }
+}
+@media (max-width: 767.98px){
+  .hr-line{
+    width: 100%;
+  }
+  .continue-label{
+    font-size: 10px;
+    top: -8px;
+  }
 }
